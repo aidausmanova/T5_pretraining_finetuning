@@ -10,9 +10,9 @@ Pre-processing steps:
 2. Randomly select 5 triplets from each Subject
 3. Randomly mask 2 words in each sentence
 
-### T5 pre-training
-The pre-training is done following the example of T5 (https://huggingface.co/docs/transformers/model_doc/t5#training) on Masked Language Modeling (MLM).
+### Pre-training
+The pre-training is done following the example of T5 (https://huggingface.co/docs/transformers/model_doc/t5#training) on Masked Language Modeling (MLM) using previpusly pre-processed ConceptNet triplets.
 
-### T5 fine-tuning
-In the end T5 model is fine-tuned on TellMeWhy dataset for Q&A task.
+### Fine-tuning
+In the end T5 model is fine-tuned on TellMeWhy dataset (https://stonybrooknlp.github.io/tellmewhy/) for Q&A task.
 
